@@ -2,7 +2,7 @@ const page2Image = document.querySelector('.page2-image');
 const page2ImageContainer = document.querySelector('.page2-image-container');
 
 // Define o fator de velocidade
-const speedFactor = 0.25; // Ajuste o fator de velocidade (menor que 1 para mais lento)
+const speedFactor = 0.2; // Ajuste o fator de velocidade (menor que 1 para mais lento)
 const startEffectOffset = -500; // Ajuste esta variável para definir quando o efeito começa (em pixels)
 
 window.addEventListener('scroll', () => {
